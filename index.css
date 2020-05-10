@@ -46,3 +46,19 @@ body {
     color: white;
     font-weight: 400;
 }
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+.card {
+    background-color: #262626;
+    list-style: none;
+    width: 270px;
+    height: 150px;
+    margin: 5px;
+}
